@@ -11,6 +11,16 @@ node_modules
 dist
 dist-ssr
 *.local
+.next
+frontend/node_modules
+frontend/.next
+frontend/out
+backend/.venv
+backend/__pycache__
+backend/.pytest_cache
+*.pyc
+*.pyo
+__pycache__/
 
 # Editor directories and files
 .vscode/*
@@ -23,4 +33,9 @@ dist-ssr
 *.sln
 *.sw?
 *.env
-C:\Users\Vijay Patidar\Desktop\backend\BhuSampda\client\.env
+frontend/.env.local
+backend/.env
+docs/
+scripts/
+content/
+HANDOFF.md
